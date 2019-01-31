@@ -1,0 +1,213 @@
+h1::after {
+    content: " ";
+    border: solid 2px #00c499;
+    display: block;
+    width: 65px;
+    margin-top:10px;
+  }
+/*  Showcase: ;  */
+
+#showcase{
+  background: url(../Images/Home/skyview.jpg) no-repeat ;
+  background-size:100% 100%;
+  background-position: 0px -250px;
+  background-attachment: fixed;
+}
+#showcase p{
+  text-shadow: 2px 2px #434186;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 60px;
+  color:#ffffff;
+  text-align: center;
+  padding-top:12%;
+  padding-bottom: 12%;
+}
+
+@media only screen and (max-width: 1024px) {
+  #showcase{
+    background: url(../Images/Home/skyview-ipad.jpg) no-repeat ;
+    background-position: 0px -200px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #showcase{
+    background: url(../Images/Home/skyview-800px.jpg) no-repeat ;
+    background-position: 0px -100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #showcase{
+    background: url(../Images/Home/skyview-mobile.jpg) no-repeat ;
+  }
+  #showcase p{
+
+    font-size: 25px;
+    margin:40% 5% 30% 5%;
+  }
+}
+
+/*Section 2- News/Blogs*/
+#NewsBlogs{
+padding-bottom:2%;
+}
+#NewsBlogs .News h1{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  color:#000089;
+  font-weight: bolder;
+}
+
+.box{
+    width:25%;
+    float:left;
+    text-align: center;
+}
+.box img{
+  width:90%;
+  height:250px;
+  border-radius: 1%;
+}
+
+
+.box a{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000089;
+}
+
+@media only screen and (max-width: 1200px) {
+  .box{
+    width:50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .box{
+    width:100%;
+    }
+    #NewsBlogs{
+      text-align: center;
+    }
+}
+
+
+
+/* International Volunteer*/
+
+#volunteer{
+  min-height: 400px;
+  background-color: #606eb2;
+
+}
+#volunteer .international p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+.Group-circle{
+  animation-duration: 10s;
+}
+.circles{
+    width:20%;
+    float:left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#volunteer .circles img{
+  max-width:90%;
+  height:250px;
+  border-radius: 50%;
+}
+#volunteer .circles h2{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  color:white;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+#volunteer .circles span{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  color:white;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.more{
+  text-align: center;
+  margin: 20px;
+  clear:left;
+
+}
+.more button{
+
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+
+}
+@media only screen and (max-width: 1200px) {
+
+  .circles{
+      width:50%;
+  }
+  @media screen and (min-width: 0px) and (max-width: 1200px) {
+  .center { display: none; }
+}
+}
+@media only screen and (max-width: 600px) {
+  .circles{
+      width:100%;
+  }
+  #volunteer .international p{
+    font-size: 30px;
+  }
+
+}
+
+
+/* International Student Guidelines*/
+
+#guideline{
+  padding-bottom:1.5%;
+}
+#guideline .student-guideline h1{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  color:#000089;
+  font-weight: bolder;
+}
+
+.guidelines{
+    width:25%;
+    float:left;
+    text-align: center;
+}
+.guidelines img{
+  width:90%;
+  height:250px;
+  border-radius: 1%;
+}
+.guidelines a{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000089;
+
+}
+@media only screen and (max-width: 1200px) {
+  .guidelines{
+    width:50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .guidelines {
+    width:100%;
+    }
+
+}

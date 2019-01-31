@@ -1,0 +1,190 @@
+/*  Showcase: ;  */
+
+#showcase{
+  background: url(../Images/Connect/students.jpg) no-repeat ;
+  background-size:100% 100%;
+  background-position: 0px -120px;
+  background-attachment: fixed;
+}
+
+
+
+#showcase p{
+  text-shadow: 2px 2px #434186;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 60px;
+  color:#ffffff;
+  text-align: center;
+  margin-top:15%;
+  margin-bottom: 15%;
+}
+@media only screen and (max-width: 1024px) {
+  #showcase{
+    background: url(../Images/Connect/students-ipad.jpg) no-repeat ;
+    background-position: 0px -80px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #showcase{
+    background: url(../Images/Connect/students-800px.jpg) no-repeat ;
+    background-position: 0px -60px;
+}
+}
+@media only screen and (max-width: 480px) {
+  #showcase{
+    background: url(../Images/Connect/students-mobile.jpg) no-repeat ;
+    background-position: 0px 20px;
+  }
+  #showcase p{
+
+    font-size: 25px;
+    margin:40% 5% 30% 5%;
+  }
+}
+
+/* course */
+#course{
+  margin-top:-25px;
+  background-color: #606eb2;
+}
+#course h1{
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  color:#ffffff;
+  font-weight: bolder;
+  text-align: center;
+}
+.drop-down{
+  background-color: #606eb2;
+  padding-top: 0.5px;
+}
+.select-style {
+    border: 1px solid #ccc;
+    height:30px;
+    width: 350px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url(../Images/Connect/down-arrow.png) no-repeat 96% 50%;
+    margin: auto;
+}
+
+.select-style select {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    padding: 8px 8px;
+    width: 350px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+.pseudo-section-text{
+  width:40%;
+  display: inline-block;
+  margin:15px 5%;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight:200;
+}
+@media only screen and (max-width: 1200px) {
+  .pseudo-section-text{
+  width:42%;
+  margin:15px 3%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .pseudo-section-text{
+    width:100%;
+    margin: 20px 10px;
+    display: block;
+  }
+  .pseudo-section{
+    margin-top: -30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+/* Course Ends */
+
+
+/* Senior Representative Starts */
+#senior-rep {
+  color:#060360;
+}
+#senior-rep h1{
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  font-weight: bolder;
+  text-align: center;
+
+}
+.Group-circle{
+  margin-left: 30%;
+  margin-right:-30%;
+}
+.circles{
+    width:20%;
+    float:left;
+    text-align: center;
+    margin:5px;
+}
+.circles img{
+  max-width:90%;
+  height:250px;
+  border-radius: 50%;
+}
+.circles h2{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+ .circles span{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 1200px) {
+  .circles{
+      width:30%;
+  }
+  .Group-circle{
+    margin-left: 20%;
+    margin-right:-20%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .circles{
+      width:40%;
+  }
+  .Group-circle{
+    margin-left: 8%;
+    margin-right:-8%;
+  }
+}
+@media only screen and (max-width:600px) {
+  .circles{
+      width:80%;
+      float:none;
+      margin-bottom: 25px;
+  }
+  .Group-circle{
+    margin-left: 6%;
+    margin-right:-6%;
+  }
+  #senior-rep p{
+    margin-top: -40px;
+  }
+  #course{
+    margin-top:-30px;
+  }
+}
+
+/* Senior Representative Ends */

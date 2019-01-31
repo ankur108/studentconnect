@@ -1,0 +1,184 @@
+/*  Showcase: ;  */
+
+#showcase{
+  background: url(../Images/InternationalStudentGuideline/guideline.jpeg) no-repeat ;
+  background-size:100% 100%;
+  background-position: 0px -120px;
+  background-attachment: fixed;
+}
+#showcase p{
+  text-shadow: 2px 2px #434186;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 60px;
+  color:#ffffff;
+  text-align: center;
+  margin-top:15%;
+  margin-bottom: 15%;
+}
+@media only screen and (max-width: 1024px) {
+  #showcase{
+    background: url(../Images/InternationalStudentGuideline/guideline-ipad.jpeg) no-repeat ;
+    background-position: 0px -80px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #showcase{
+    background: url(../Images/InternationalStudentGuideline/guideline-800px.jpeg) no-repeat ;
+    background-position: 0px -60px;
+}
+}
+@media only screen and (max-width: 480px) {
+  #showcase{
+    background: url(../Images/InternationalStudentGuideline/guideline-mobile.jpeg) no-repeat ;
+    background-position: 0px 20px;
+  }
+  #showcase p{
+
+    font-size: 25px;
+    margin:40% 5% 30% 5%;
+  }
+}
+/*  Showcase Finishes */
+
+/* Starter Pack Starts*/
+.heading{
+  background-color: #606eb2;
+  color:#ffffff;
+  margin-top: -40px;
+  padding:15px 10px;
+}
+.heading p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+}
+.heading h1{
+
+  font-family: 'Work Sans', sans-serif;
+}
+
+.starter-boxes{
+  background-color: #00c499;
+  color:white;
+  width:24%;
+  border-radius: 1%;
+  margin:0.5%;
+  float:left;
+}
+.starter-boxes:hover{
+  background-color: #060360;
+}
+.starter-boxes h3{
+  padding:80px 0px 80px 0px;
+  font-size: 22px;
+  font-family: 'Work Sans', sans-serif;
+  text-align:center;
+}
+.free-text h3{
+  text-align: center;
+  color:#5a6369;
+  font-size: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .clearing{
+    clear:left;
+  }
+  .starter-boxes{
+    width:48%;
+    margin:0.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .starter-boxes{
+    float:none;
+    width:100%;
+  }
+}
+/* Starter Pack Ends*/
+
+/*  Guidlines */
+.guidelines{
+    width:20%;
+    font-size: 20px;
+    color:#ffffff;
+    font-weight: bold;
+    float:left;
+    border-radius: 1%;
+    text-align: center;
+    margin:10px 10px 10px 10px;
+    padding-top:180px;
+    padding-bottom:-10px;
+    max-height: 220px;
+}
+
+.guidelines-group{
+  margin-left:8%;
+  margin-right: -8%;
+}
+@media screen and (max-width: 1024px) {
+  .clearing{
+    clear:left;
+  }
+  .guidelines{
+      width:45%;
+  }
+  .guidelines-group{
+    margin-left:2%;
+    margin-right: -2%;
+  }
+}
+@media screen and (max-width: 600px) {
+
+  .guidelines{
+      foat:none;
+      width:100%;
+  }
+  .guidelines-group{
+    margin-left:0;
+    margin-right: 0%;
+  }
+}
+
+/*Guidlines*/
+
+/* FAQ Starts*/
+.faq{
+  width:70%;
+}
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size:30px;
+    color: #091f2f;
+    text-transform: togglecase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 1024px) {
+.faq{
+  width:90%;
+}
+}
+
+/* FAQ Ends*/
